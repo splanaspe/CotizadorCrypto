@@ -4,7 +4,7 @@ Es un proyecto realizado con VueJs el cual permite seleccionar una de las 20 cri
 ## Conceptos Técnicos
 API de CryptoCompare [URL](https://min-api.cryptocompare.com/documentation?key=Toplists&cat=TopTotalMktCapEndpointFull)
 
-`
+```
 const criptomonedas = ref([])
 
   onMounted( () => {
@@ -15,4 +15,4 @@ const criptomonedas = ref([])
         criptomonedas.value=data.Data
       })
   })
-`
+```
